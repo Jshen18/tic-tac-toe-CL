@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 
-const prompts = [
+const playerPrompts = [
   {
     type: 'input',
     name: 'name',
@@ -16,7 +16,17 @@ const prompts = [
 
 ]
 
-return inquirer.prompt(prompts)
+const movePrompts = [
+  {
+    type: 'input',
+    name: 'move',
+    message: 'Please enter Player 1 moves: col, row',
+    default: '0, 0'
+  }
+]
+
+
+return inquirer.prompt(playerPrompts)
   .then(answers => {
     console.log('Player 1', answers);
   })
