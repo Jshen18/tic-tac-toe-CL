@@ -1,0 +1,22 @@
+{
+  "name": "tttcommandline",
+  "version": "1.0.0",
+  "description": "tic tac toe command line application",
+  "main": "tictactoe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jshen18/tic-tac-toe-CL.git"
+  },
+  "author": "Jennifer Shen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jshen18/tic-tac-toe-CL/issues"
+  },
+  "homepage": "https://github.com/Jshen18/tic-tac-toe-CL#readme",
+  "dependencies": {
+    "inquirer": "^5.0.0"
+  }
+}
